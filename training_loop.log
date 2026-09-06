@@ -1,0 +1,155 @@
+2025-08-17 16:43:22,383 - INFO - Starting training system tests...
+2025-08-17 16:43:22,383 - INFO - ==================================================
+2025-08-17 16:43:22,383 - INFO - 
+Running Configuration test...
+2025-08-17 16:43:22,383 - INFO - Testing configuration...
+2025-08-17 16:43:22,383 - INFO - ✓ Performance thresholds: {'min_total_return': 10.0, 'min_sharpe_ratio': 0.5, 'max_drawdown': 20.0, 'min_win_rate': 0.4, 'min_accuracy': 0.55}
+2025-08-17 16:43:22,383 - INFO - ✓ Improvement triggers: {'low_returns': {'threshold': 10.0, 'actions': ['enhance_features', 'try_different_models', 'optimize_hyperparameters']}, 'poor_risk_adjustment': {'threshold': 0.5, 'actions': ['improve_risk_management', 'optimize_position_sizing', 'add_stop_loss']}, 'high_drawdown': {'threshold': 20.0, 'actions': ['implement_stop_loss', 'add_risk_controls', 'optimize_entry_timing']}, 'low_win_rate': {'threshold': 0.4, 'actions': ['improve_signal_quality', 'add_confirmation_filters', 'optimize_entry_exit']}}
+2025-08-17 16:43:22,383 - INFO - ✓ Configuration loaded successfully
+2025-08-17 16:43:22,383 - INFO - ✓ Configuration test PASSED
+2025-08-17 16:43:22,383 - INFO - 
+Running Feature Engineering test...
+2025-08-17 16:43:22,383 - INFO - Testing feature engineering...
+2025-08-17 16:43:22,386 - INFO - ✓ Bollinger Bands calculated: 100 points
+2025-08-17 16:43:22,386 - INFO - ✓ Stochastic calculated: 100 points
+2025-08-17 16:43:22,386 - INFO - ✓ Feature engineering test passed!
+2025-08-17 16:43:22,386 - INFO - ✓ Feature Engineering test PASSED
+2025-08-17 16:43:22,386 - INFO - 
+Running Model Trainer test...
+2025-08-17 16:43:22,386 - INFO - Testing ModelTrainer class...
+2025-08-17 16:43:22,386 - INFO - ✓ ModelTrainer initialized successfully
+2025-08-17 16:43:22,386 - INFO - New best performance: 5.00%
+2025-08-17 16:43:22,386 - INFO - ✓ Performance analysis completed: {'needs_improvement': True, 'improvement_areas': ['low_returns', 'poor_risk_adjustment', 'high_drawdown', 'low_win_rate'], 'suggestions': ['Consider feature engineering and model complexity', 'Optimize position sizing and risk management', 'Implement better stop-loss and risk controls', 'Improve signal quality and entry/exit timing']}
+2025-08-17 16:43:22,386 - INFO - Implementing code improvements...
+2025-08-17 16:43:22,386 - INFO - Improving feature engineering...
+2025-08-17 16:43:22,386 - WARNING - Could not find target string in signals/ml_signals.py
+2025-08-17 16:43:22,386 - INFO - Improving risk management...
+2025-08-17 16:43:22,387 - WARNING - Could not find target string in strategies/ai_strategy.py
+2025-08-17 16:43:22,387 - INFO - Improving stop-loss mechanisms...
+2025-08-17 16:43:22,387 - INFO - Improving signal quality...
+2025-08-17 16:43:22,387 - INFO - ✓ Code improvements: {'implemented': ['Enhanced feature engineering', 'Enhanced risk management', 'Enhanced stop-loss mechanisms', 'Enhanced signal quality'], 'failed': [], 'files_modified': ['signals/ml_signals.py', 'strategies/ai_strategy.py']}
+2025-08-17 16:43:22,387 - INFO - ✓ All tests passed!
+2025-08-17 16:43:22,387 - INFO - ✓ Model Trainer test PASSED
+2025-08-17 16:43:22,387 - INFO - 
+==================================================
+2025-08-17 16:43:22,387 - INFO - Test Results: 3/3 tests passed
+2025-08-17 16:43:22,387 - INFO - 🎉 All tests passed! The training system is ready to use.
+2025-08-17 16:43:22,387 - INFO - 
+To start the training loop, run:
+2025-08-17 16:43:22,387 - INFO -   python3 start_training.py
+2025-08-17 16:43:49,171 - INFO - 🤖 AI Trading Bot Training System Demonstration
+2025-08-17 16:43:49,171 - INFO - ============================================================
+2025-08-17 16:43:49,171 - INFO - This demonstration shows how the system:
+2025-08-17 16:43:49,171 - INFO - 1. Trains AI models using historical data
+2025-08-17 16:43:49,171 - INFO - 2. Analyzes trading performance
+2025-08-17 16:43:49,171 - INFO - 3. Automatically improves code based on results
+2025-08-17 16:43:49,171 - INFO - 4. Loops every 2 hours for continuous improvement
+2025-08-17 16:43:49,171 - INFO - ============================================================
+2025-08-17 16:43:49,171 - INFO - 
+📊 Performance Thresholds:
+2025-08-17 16:43:49,171 - INFO -   min_total_return: 10.0
+2025-08-17 16:43:49,171 - INFO -   min_sharpe_ratio: 0.5
+2025-08-17 16:43:49,171 - INFO -   max_drawdown: 20.0
+2025-08-17 16:43:49,171 - INFO -   min_win_rate: 0.4
+2025-08-17 16:43:49,171 - INFO -   min_accuracy: 0.55
+2025-08-17 16:43:49,171 - INFO - 
+🔄 Improvement Triggers:
+2025-08-17 16:43:49,171 - INFO -   low_returns: 10.0 → ['enhance_features', 'try_different_models', 'optimize_hyperparameters']
+2025-08-17 16:43:49,171 - INFO -   poor_risk_adjustment: 0.5 → ['improve_risk_management', 'optimize_position_sizing', 'add_stop_loss']
+2025-08-17 16:43:49,171 - INFO -   high_drawdown: 20.0 → ['implement_stop_loss', 'add_risk_controls', 'optimize_entry_timing']
+2025-08-17 16:43:49,171 - INFO -   low_win_rate: 0.4 → ['improve_signal_quality', 'add_confirmation_filters', 'optimize_entry_exit']
+2025-08-17 16:43:49,171 - INFO - 
+============================================================
+2025-08-17 16:43:49,171 - INFO - SIMULATING TRAINING ITERATION 1
+2025-08-17 16:43:49,171 - INFO - ============================================================
+2025-08-17 16:43:49,171 - INFO - Training Results:
+2025-08-17 16:43:49,171 - INFO -   Total Return: 3.5%
+2025-08-17 16:43:49,171 - INFO -   Sharpe Ratio: 0.20
+2025-08-17 16:43:49,171 - INFO -   Max Drawdown: 28.0%
+2025-08-17 16:43:49,171 - INFO -   Win Rate: 0.32
+2025-08-17 16:43:49,171 - INFO -   Total Trades: 45
+2025-08-17 16:43:49,171 - INFO - 
+Analyzing performance...
+2025-08-17 16:43:49,171 - INFO - New best performance: 3.50%
+2025-08-17 16:43:49,171 - INFO - Performance analysis shows improvements needed:
+2025-08-17 16:43:49,171 - INFO -   - low_returns
+2025-08-17 16:43:49,171 - INFO -   - poor_risk_adjustment
+2025-08-17 16:43:49,171 - INFO -   - high_drawdown
+2025-08-17 16:43:49,171 - INFO -   - low_win_rate
+2025-08-17 16:43:49,171 - INFO - 
+Implementing code improvements...
+2025-08-17 16:43:49,171 - INFO - Implementing code improvements...
+2025-08-17 16:43:49,171 - INFO - Improving feature engineering...
+2025-08-17 16:43:49,171 - WARNING - Could not find target string in signals/ml_signals.py
+2025-08-17 16:43:49,171 - INFO - Improving risk management...
+2025-08-17 16:43:49,172 - WARNING - Could not find target string in strategies/ai_strategy.py
+2025-08-17 16:43:49,172 - INFO - Improving stop-loss mechanisms...
+2025-08-17 16:43:49,172 - INFO - Improving signal quality...
+2025-08-17 16:43:49,172 - INFO - Improvements implemented:
+2025-08-17 16:43:49,172 - INFO -   ✓ Enhanced feature engineering
+2025-08-17 16:43:49,172 - INFO -   ✓ Enhanced risk management
+2025-08-17 16:43:49,172 - INFO -   ✓ Enhanced stop-loss mechanisms
+2025-08-17 16:43:49,172 - INFO -   ✓ Enhanced signal quality
+2025-08-17 16:43:50,172 - INFO - 
+============================================================
+2025-08-17 16:43:50,172 - INFO - SIMULATING TRAINING ITERATION 2
+2025-08-17 16:43:50,172 - INFO - ============================================================
+2025-08-17 16:43:50,172 - INFO - Training Results:
+2025-08-17 16:43:50,172 - INFO -   Total Return: 8.2%
+2025-08-17 16:43:50,172 - INFO -   Sharpe Ratio: 0.45
+2025-08-17 16:43:50,172 - INFO -   Max Drawdown: 22.0%
+2025-08-17 16:43:50,172 - INFO -   Win Rate: 0.38
+2025-08-17 16:43:50,172 - INFO -   Total Trades: 52
+2025-08-17 16:43:50,172 - INFO - 
+Analyzing performance...
+2025-08-17 16:43:50,172 - INFO - New best performance: 8.20%
+2025-08-17 16:43:50,172 - INFO - Performance analysis shows improvements needed:
+2025-08-17 16:43:50,172 - INFO -   - low_returns
+2025-08-17 16:43:50,172 - INFO -   - poor_risk_adjustment
+2025-08-17 16:43:50,172 - INFO -   - high_drawdown
+2025-08-17 16:43:50,172 - INFO -   - low_win_rate
+2025-08-17 16:43:50,172 - INFO - 
+Implementing code improvements...
+2025-08-17 16:43:50,172 - INFO - Implementing code improvements...
+2025-08-17 16:43:50,172 - INFO - Improving feature engineering...
+2025-08-17 16:43:50,172 - WARNING - Could not find target string in signals/ml_signals.py
+2025-08-17 16:43:50,172 - INFO - Improving risk management...
+2025-08-17 16:43:50,172 - WARNING - Could not find target string in strategies/ai_strategy.py
+2025-08-17 16:43:50,172 - INFO - Improving stop-loss mechanisms...
+2025-08-17 16:43:50,172 - INFO - Improving signal quality...
+2025-08-17 16:43:50,172 - INFO - Improvements implemented:
+2025-08-17 16:43:50,172 - INFO -   ✓ Enhanced feature engineering
+2025-08-17 16:43:50,172 - INFO -   ✓ Enhanced risk management
+2025-08-17 16:43:50,172 - INFO -   ✓ Enhanced stop-loss mechanisms
+2025-08-17 16:43:50,172 - INFO -   ✓ Enhanced signal quality
+2025-08-17 16:43:51,172 - INFO - 
+============================================================
+2025-08-17 16:43:51,173 - INFO - SIMULATING TRAINING ITERATION 3
+2025-08-17 16:43:51,173 - INFO - ============================================================
+2025-08-17 16:43:51,173 - INFO - Training Results:
+2025-08-17 16:43:51,173 - INFO -   Total Return: 15.7%
+2025-08-17 16:43:51,173 - INFO -   Sharpe Ratio: 0.68
+2025-08-17 16:43:51,173 - INFO -   Max Drawdown: 18.5%
+2025-08-17 16:43:51,173 - INFO -   Win Rate: 0.52
+2025-08-17 16:43:51,173 - INFO -   Total Trades: 58
+2025-08-17 16:43:51,173 - INFO - 
+Analyzing performance...
+2025-08-17 16:43:51,173 - INFO - New best performance: 15.70%
+2025-08-17 16:43:51,173 - INFO - ✓ Performance meets all thresholds! No improvements needed.
+2025-08-17 16:43:52,173 - INFO - 
+============================================================
+2025-08-17 16:43:52,173 - INFO - DEMONSTRATION COMPLETED
+2025-08-17 16:43:52,173 - INFO - ============================================================
+2025-08-17 16:43:52,173 - INFO - The system successfully:
+2025-08-17 16:43:52,173 - INFO - ✓ Trained AI models with different performance levels
+2025-08-17 16:43:52,173 - INFO - ✓ Analyzed performance against thresholds
+2025-08-17 16:43:52,173 - INFO - ✓ Implemented automatic code improvements
+2025-08-17 16:43:52,173 - INFO - ✓ Tracked improvement history
+2025-08-17 16:43:52,173 - INFO - 
+🚀 To start the real training loop (runs every 2 hours):
+2025-08-17 16:43:52,173 - INFO -   python3 start_training.py
+2025-08-17 16:43:52,173 - INFO - 
+🧪 To run tests:
+2025-08-17 16:43:52,173 - INFO -   python3 test_training.py
+2025-08-17 16:43:52,173 - INFO - 
+📚 For more information, see TRAINING_README.md

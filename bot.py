@@ -13,6 +13,7 @@ def main():
     parser = argparse.ArgumentParser(description="Gemini Trading Bot")
     parser.add_argument("--strategy", type=str, required=True, choices=["grid", "mean_reversion", "momentum"], help="Trading strategy to use")
     parser.add_argument("--mode", type=str, required=True, choices=["paper", "live"], help="Trading mode")
+    parser.add_argument("--symbol", type=str, required=True, help="Trading symbol (e.g., BTC/USDT)")
     parser.add_argument("--exchange", type=str, default="binance", choices=["binance"], help="Exchange to use")
     args = parser.parse_args()
 
